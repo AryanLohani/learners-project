@@ -7,12 +7,9 @@ import "../static/css/footer.css";
 const Footer = () => {
     return (
         <div>
-            <div class="container">
-
-            </div>
 
             <div class="container">
-                <footer class="py-3">
+                <footer class="py-2">
                     <ul class="nav justify-content-center border-bottom pb-3 mb-3">
                         <li class="nav-item"><a href=" " class="nav-link px-2 text-muted">Home</a></li>
                         <li class="nav-item"><a href=" " class="nav-link px-2 text-muted">Policy</a></li>
@@ -22,13 +19,13 @@ const Footer = () => {
                     </ul>
                     <p class="text-center text-muted">&copy; 2021 Company, Inc</p>
                 </footer>
-                <footer class="py-3">
+                <footer class="pt-0">
 
                     <div class="row d-flex justify-content-between">
                         <div class="col-4 ms-2">
                             <form>
                                 <h5>Register for latest Dishes!</h5>
-                                <p>Monthly menu of whats new and exciting from us.</p>
+                                <p className="p">Monthly menu of whats new and exciting from us.</p>
                                 <div class="d-flex w-100 gap-2">
 
                                     <button class="btn btn-outline-secondary" type="button">Sign In</button>
@@ -45,12 +42,12 @@ const Footer = () => {
                         </div>
                         <div class="col-2">
                             <h5>Location</h5>
-                            <p> Near Chaocke hall in UK hotel,Sanghai,Chimchan,Karaoke road,surpur,Washington Dc,USA.113456</p>
+                            <p className="p"> Near Chaocke hall in UK hotel,Sanghai,Chimchan,Karaoke road,surpur,Washington Dc,USA.113456</p>
                         </div>
 
                         <div class="col-2">
                             <h5>Contact</h5>
-                            <p>Ph no: +91XXXXXX4323
+                            <p className="p">Ph no: +91XXXXXX4323
                                 Email:toaki@rest.gmail.com
                                 FaxId: 34@kksign4
                             </p>

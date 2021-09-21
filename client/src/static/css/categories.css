@@ -1,6 +1,8 @@
-    p{
+    .p{
+      margin-top: -5px;
       color: gray;
       font-family: Georgia;
+      font-size: 1rem;
     }
     /* *{
       background-color:RGB(241, 245, 248);
@@ -13,19 +15,27 @@
     }
     .menu{
       color: rgb(0, 0, 0);
+      font-size: 2rem;
+      font-weight: 500;
+      float: left;
     }
-  
+    .homeback{
+      font-size: 1.5rem;
+      color: gray;
+      padding-left: 1rem;
+      text-decoration: none;
+    }
     .menulist{
     
       line-height:1;
       padding: 0% 0%;
       display: flex;
       margin: 0 auto;
-      padding-bottom: 2%;
+      padding-bottom: 0%;
       justify-content: center;
      
     }
-    li{
+    .li{
       width: 80px;
       float: left;
       height: 40px;
@@ -40,7 +50,7 @@
     }
  
 
-    li:hover{
+    .li:hover{
 
       cursor: pointer;
       transition: 0.4s ease-in;
@@ -48,17 +58,20 @@
       color: white;
     }
 
-  
+    .btns{
+      width: 100px;
+      height: 38px;
+    }
     .cont{
       
         width: 90%;
-        height: 230px;
+        height: 220px;
         display: flex;
         justify-content: center;
         align-items: center;
         margin: 2.5% 0%;
         /* background-image: linear-gradient(rgb(245, 233, 233),white); */
-        background-color:RGB(241, 245, 248);
+        background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(226, 229, 229, 0.836));
  
     }
 
@@ -74,11 +87,13 @@
     }
     .cards{
        
-        width: 85%;
+        width: 100%;
         margin: 0 auto;
         display: flex;
         justify-content: center;
         padding-bottom: 2.7%;
+        background-color:RGB(241, 245, 248);
+        padding: 2% 9% 5% 9%;
     
     }
     .nameAndPrice{
@@ -94,7 +109,7 @@
     .dishImage{
       border: 3px solid rgba(128, 128, 128, 0.199);
       border-style:outset;
-      width:80%; height:100%;
+      width:185px; height:190px;
 
     }
     .styleInfo{
@@ -105,18 +120,24 @@
     
     .cont{
       height: 500px;
+      background-color:RGB(241, 245, 248);
     }
-    li{
+    .li{
       text-align: left;
       display: flex;
       justify-content: left;
       align-items: center;
     }
+    .li:hover{
+      color: rgb(10, 9, 9);
+      background-color:rgba(255, 255, 255, 0);
+    
+    }
     .first{
       margin-left: 17px;
     }  
     .cards{
-      width: 90%;
+      width: 100%;
     }
     .dishImage{
       border: 6px ridge rgb(230, 206, 86);
@@ -126,5 +147,8 @@
     .cont:hover{
       transform: scale(1);
       box-shadow: none;
+    }
+    .homeback{
+     float: right;
     }
     }
